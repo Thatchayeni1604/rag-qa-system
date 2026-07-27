@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+venv/
+.venv/
+
+# ChromaDB (generated, don't commit)
+chroma_db/
+
+# Uploaded docs (user-specific)
+docs/*.pdf
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db

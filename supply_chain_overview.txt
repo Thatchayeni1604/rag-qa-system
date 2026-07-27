@@ -1,0 +1,45 @@
+Supply Chain & Logistics — Key Concepts
+=======================================
+
+YARD MANAGEMENT
+Yard management refers to the coordination and tracking of trucks, trailers, and containers
+within a facility's yard or staging area. A Yard Management System (YMS) helps warehouses
+track assets in real time, reduce detention costs, and ensure dock doors are efficiently utilized.
+Key metrics: dwell time, gate turnaround time, dock utilization rate.
+
+TERMINAL THROUGHPUT
+Terminal throughput is the volume of cargo or containers processed by a terminal (port, rail, or
+warehouse) within a given time period. High throughput indicates efficient operations. Throughput
+is affected by equipment availability, labor efficiency, berth occupancy, and cargo dwell time.
+Improving terminal throughput is a core goal of supply chain AI systems like Kaleris.
+
+DEMAND FORECASTING IN SUPPLY CHAINS
+AI-based demand forecasting uses historical data, seasonal patterns, and external signals
+(weather, market trends) to predict future inventory needs. Accurate forecasting reduces
+overstock, prevents stockouts, and lowers carrying costs. Common models: ARIMA, SARIMA,
+LSTM, XGBoost.
+
+LAST-MILE DELIVERY
+The final step of the delivery process from a distribution hub to the end customer. This is
+typically the most expensive and time-consuming segment. AI optimizes routing, reduces
+failed deliveries, and improves ETA prediction.
+
+INTERMODAL LOGISTICS
+Use of multiple modes of transport (ship, rail, truck) for a single shipment. AI platforms
+help coordinate handoffs, track containers across modes, and predict delays.
+
+VECTOR DATABASE IN SUPPLY CHAIN AI
+Vector databases like ChromaDB and Pinecone store embeddings of logistics documents,
+SOPs, regulations, and shipping records. They enable semantic search, allowing AI agents
+to retrieve relevant context and answer queries about shipment status, compliance rules,
+or carrier performance.
+
+GENERATIVE AI IN SUPPLY CHAINS
+LLMs and GenAI agents are increasingly used to automate exception management, generate
+shipment summaries, draft supplier communications, and build conversational interfaces
+on top of logistics data platforms.
+
+RAG (Retrieval-Augmented Generation)
+RAG combines a retriever (vector database) with an LLM generator. For supply chains,
+this means an agent can answer "what is the current dwell time SLA for this carrier?"
+by retrieving relevant SLA documents from a vector store and generating a precise answer.
